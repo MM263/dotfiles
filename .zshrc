@@ -43,3 +43,10 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# init zoxide
+eval "$(zoxide init --cmd cd zsh)"
+
+# fzf key bindings and fuzzy completions
+eval "$(fzf --zsh)"
+
