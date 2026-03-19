@@ -1,0 +1,7 @@
+[tasks.check]
+description = "Run dotfiles validation checks"
+run = "just check"
+
+[tasks.fmt]
+description = "Format repo files when local tooling is installed"
+run = "just fmt"

@@ -1,0 +1,92 @@
+keybinds {
+  shared_except "locked" {
+    bind "Ctrl h" {
+      MessagePlugin "https://github.com/hiasr/vim-zellij-navigator/releases/download/0.3.0/vim-zellij-navigator.wasm" {
+        name "move_focus_or_tab";
+        payload "left";
+        move_mod "ctrl";
+        use_arrow_keys "false";
+      };
+    }
+
+    bind "Ctrl j" {
+      MessagePlugin "https://github.com/hiasr/vim-zellij-navigator/releases/download/0.3.0/vim-zellij-navigator.wasm" {
+        name "move_focus";
+        payload "down";
+        move_mod "ctrl";
+        use_arrow_keys "false";
+      };
+    }
+
+    bind "Ctrl k" {
+      MessagePlugin "https://github.com/hiasr/vim-zellij-navigator/releases/download/0.3.0/vim-zellij-navigator.wasm" {
+        name "move_focus";
+        payload "up";
+        move_mod "ctrl";
+        use_arrow_keys "false";
+      };
+    }
+
+    bind "Ctrl l" {
+      MessagePlugin "https://github.com/hiasr/vim-zellij-navigator/releases/download/0.3.0/vim-zellij-navigator.wasm" {
+        name "move_focus_or_tab";
+        payload "right";
+        move_mod "ctrl";
+        use_arrow_keys "false";
+      };
+    }
+
+    bind "Alt h" {
+      MessagePlugin "https://github.com/hiasr/vim-zellij-navigator/releases/download/0.3.0/vim-zellij-navigator.wasm" {
+        name "resize";
+        payload "left";
+        resize_mod "alt";
+      };
+    }
+
+    bind "Alt j" {
+      MessagePlugin "https://github.com/hiasr/vim-zellij-navigator/releases/download/0.3.0/vim-zellij-navigator.wasm" {
+        name "resize";
+        payload "down";
+        resize_mod "alt";
+      };
+    }
+
+    bind "Alt k" {
+      MessagePlugin "https://github.com/hiasr/vim-zellij-navigator/releases/download/0.3.0/vim-zellij-navigator.wasm" {
+        name "resize";
+        payload "up";
+        resize_mod "alt";
+      };
+    }
+
+    bind "Alt l" {
+      MessagePlugin "https://github.com/hiasr/vim-zellij-navigator/releases/download/0.3.0/vim-zellij-navigator.wasm" {
+        name "resize";
+        payload "right";
+        resize_mod "alt";
+      };
+    }
+  }
+}
+
+themes {
+  mellow_melange {
+    fg 236 225 215
+    bg 41 37 34
+    red 189 129 131
+    green 120 153 122
+    yellow 228 155 93
+    blue 127 145 178
+    magenta 179 128 176
+    orange 193 167 142
+    cyan 123 150 149
+    black 52 48 44
+    white 236 225 215
+  }
+}
+
+theme "mellow_melange"
+simplified_ui true
+mouse_mode false
+copy_command "pbcopy"

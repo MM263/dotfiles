@@ -1,8 +1,8 @@
 return {
-  -- add gruvbox
+  -- Add the melange colorscheme.
   { "savq/melange-nvim" },
 
-  -- Configure LazyVim to load gruvbox
+  -- Configure LazyVim to load melange.
   {
     "LazyVim/LazyVim",
     opts = {

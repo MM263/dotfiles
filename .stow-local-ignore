@@ -1,0 +1,8 @@
+\.git
+^SETUP\.md$
+^Brewfile$
+^justfile$
+^mise\.toml$
+^\.gitignore$
+^\.claude$
+^\.nvimlog$
